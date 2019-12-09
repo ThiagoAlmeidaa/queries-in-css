@@ -19,6 +19,8 @@ body {
   box-sizing: border-box;
   box-shadow: 0px 8px 25px;
   border-radius: 8px;
+  display: flex;
+  flex-flow: column;
 }
 
 .card__imagem {
@@ -86,11 +88,8 @@ body {
     height: 300px;
   }
 
-
-
   .card__title {
     font-family: "Montserrat", sans-serif;
-    /* perguntar se herda essa carterisca do objeto que já foi criado */
     color: #6b48ff;
     font-size: 32px;
     line-height: 39px;
